@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>PROYECTO 156</title>
+</head>
+<body>
+    <main class="main">
+        <section class="main_content">
+            <h1>Carga de un capacitor.</h1>
+            <p>El circuito resistor-capacitor RC es uno de los primeros circuitos interesantes que podemos construir y analizar. Comprender el comportamiento de este circuito es esencial para aprender electrónica. Podemos encontrar formas de este circuito en todas partes. A veces, construirás este circuito a propósito; otras, el circuito aparecerá por su cuenta.</p>
+            <p>Ejercicio</p>
+            <p>El voltaje Vc t segundos después de cerrar el interruptor en el circuito que se muestra es:</p>
+            <img src="img/formula_1.png" alt="formula">
+            <p>Vc Dado Ve = 36 V, R = 2500 Q y C = 1600 µ F, calcule la corriente 8 segundos después de que se cierre el interruptor.</p>
+        </section>
+
+        <form action="" class="formulario">
+            <h2>LLENE LOS DATOS</h2>
+            <div class="formulario_box">
+                <label for="vc" >Voltage en el capacitor:</label>
+                <input type="text" id="vc" class="datos">
+                <!-- <p class="mensaje_error">Introduzca un numero</p> -->
+            </div>
+            <div class="formulario_box">
+                <label for="r">Resistencia:</label>
+                <input type="text" id="r" class="datos">
+            </div>
+            <div class="formulario_box">
+                <label for="c">Capacitor:</label>
+                <input type="text" id="c" class="datos">
+
+            </div>
+            <div class="formulario_box">
+                <label for="t">Tiempo:</label>
+                <input type="text" id="t" class="datos">
+                <div class="ee"></div>
+            </div>
+                <input type="submit" value="CALCULAR" class="button" id="calcular">
+        </form>
+    </main>
+     <section class="resultado">
+        <!--<p>Datos:</p>
+        <div class="resultado_datos">
+            <div class="resultado_datos_v">
+            </div>
+            <div class="resultado_datos_e">
+            </div>
+        </div>
+         <p>Reemplazando en la formula obtendremos el valor de Vc:</p> -->            
+    </section> 
+    <script src="js/app.js"></script>
+</body>
+</html>
